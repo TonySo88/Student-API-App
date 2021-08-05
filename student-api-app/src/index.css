@@ -1,0 +1,38 @@
+body {
+  margin: 10%;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 25px;
+  padding: 100px;
+  background-color: rgb(198, 210, 213);
+}
+
+.student-section {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  border-bottom: 5px solid black;
+}
+
+.student-image {
+  height: 100px;
+  border-radius: 50%;
+  border-color: red;
+}
+
+img {
+  border-radius: 50%;
+  border-color: red;
+}
+
+.student-info {
+  font-size: 12px;
+}
+
+.search-form {
+  width: 90%;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
